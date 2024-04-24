@@ -1,0 +1,94 @@
+/* @media only screen and  (max-width: 1200px) {  } */
+
+@media only screen and (max-width:1200px)   { 
+  .desktop-header ul li a {
+ 
+    padding: 10px 10px;
+}
+.faq-section-inner h5 p {
+  color: #fff;
+  font-weight: 600;
+  font-size: 15px;
+  font-family: 'Montserrat', sans-serif;
+}
+ }
+
+@media only screen and (max-width:991px){
+  /*RESPONSIVE NAVIGATION*/
+  .mobile-menu{
+    display: block;
+  }
+  .desktop-header{
+    display: none;
+  }
+  /*RESPONSIVE NAVIGATION*/
+
+
+
+}
+
+@media only screen and  (max-width: 768px)  { 
+  .header-top{
+    display: none;
+  }
+  .header-top .header-top-details p a {
+    text-decoration: none;
+    font-size: 14px;
+}
+  .header-top {
+    background-image: url('../images/header-top-rectangle-img.png');
+    background-position: top;
+    background-size: cover;
+
+}
+.header-top .header-top-details {
+  align-items: flex-start;
+  padding-right: 12px;
+  padding-top: 8px;
+}
+.header-top .header-top-details h6{
+  font-size: 15px;
+  line-height: 10px;
+  /* padding-top: 5px; */
+}
+.header-top .header-top-details .social-icon {
+  padding-right: 8px;
+}
+.header-top .header-top-details  i {
+  padding: 2px 3px;
+  font-size: 14px;
+}
+ }
+
+@media only screen and  (max-width: 576px)  { 
+  .register-form-inner h1 {
+    color: #203864;
+    font-size: 22px;
+    font-weight: 700;
+}
+  .register-form .sign_in_here a {
+    font-size: 14px;
+  
+}
+
+.social_media_icons i {
+
+  width: 50px;
+ 
+  padding: 10px 6px;
+
+  margin: 0 4px;
+  font-size: 20px;
+
+}
+ }
+
+@media only screen and  (max-width: 375px)  { 
+  .social_media_icons i {
+    width: 35px;
+    padding: 5px 6px;
+    margin: 0 4px;
+    font-size: 20px;
+}
+ }
+
